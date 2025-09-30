@@ -1,8 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
+import ToastShelf from '../../../components/ToastShelf'
+
 function FlashMsgExercise() {
   return (
+    <>
     <main>
       <h1>Welcome to my website!</h1>
       <p>
@@ -13,6 +16,8 @@ function FlashMsgExercise() {
         .
       </p>
     </main>
+    <ToastShelf />
+    </>
   );
 }
 
